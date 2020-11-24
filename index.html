@@ -1,0 +1,44 @@
+<head>
+    <title>The Face Recogniser</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+
+<html>
+<body id="body">
+    <center>
+        <h1 class="header"><b>The Face Recogniser</b></h1><hr id="top_line">
+        <h3 class="header">This website is trained to recognise the faces of:</h3><hr>
+        <h4 class="header">Shweta Gupta</h5>
+        <hr>
+        <h4 class="header">Mridul Kumar</h5>
+        <hr>
+        <h4 class="header">Yuvaan Aggarwal</h5>
+        <hr>
+        <h4 class="header">Taashvi Aggarwal</h5>
+        <hr>
+        <br/>
+
+    
+        <h4 class="header" id="webcam_text">Webcam view:</h4>
+        <div id="webcam"></div><br/>
+        <button class="button" id="take_image"><b>Take Image</b></button><br/><br/><br/>
+        <h4 class="header" id="photo_text">Captured Image:</h4>
+        <div id="photo"></div><br/>
+        <button class="button" id="identify_object"><b>Identify Person</b></button><br/><br/><br/>
+
+        <div id="results">              
+            <span id="object_name"><h4>Person: </h4></span>
+            <span id="accuracy"><h4>Accuracy: </h4></span>
+        </div><br/><br/><br/>
+    </center>
+</body>
+</html>
